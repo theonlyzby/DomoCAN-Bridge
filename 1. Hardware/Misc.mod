@@ -1,0 +1,106 @@
+PCBNEW-LibModule-V1  19/05/2013 10:02:55
+# encoding utf-8
+Units mm
+$INDEX
+JACK_3.5mm_Stereo_2Print
+miniDIN4-2Print
+$EndINDEX
+$MODULE JACK_3.5mm_Stereo_2Print
+Po 0 0 0 15 5197F5E0 00000000 ~~
+Li JACK_3.5mm_Stereo_2Print
+Cd module 1 pin (ou trou mecanique de percage)
+Kw CONN JACK
+Sc 0
+AR /5186C37F
+Op 0 0 0
+T0 7.6835 3.1623 1.016 1.016 0 0.254 N V 21 N "P4"
+T1 13.9446 2.6035 1.016 1.016 0 0.254 N V 21 N "1 Wire"
+DS -0.82 -4.298 -0.82 4.318 0.381 21
+DS 0 -4.318 0 4.318 0.381 21
+DS 11 -4.318 11 4.318 0.381 21
+DS -0.82 4.318 11 4.318 0.381 21
+DS -0.82 -4.318 11 -4.318 0.381 21
+$PAD
+Sh "2" O 3.5 4.8006 0 0 0
+Dr 2 0 0 O 2 2.54
+At STD N 00E0FFFF
+Ne 3 "GPIO 4"
+Po 1 0
+$EndPAD
+$PAD
+Sh "1" O 3.5 4.8006 0 0 0
+Dr 2 0 0 O 2 2.54
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 10 0
+$EndPAD
+$PAD
+Sh "3" O 3.5 4.8006 0 0 0
+Dr 2 0 0 O 2 2.54
+At STD N 00E0FFFF
+Ne 1 "3.3 V"
+Po 5 0
+$EndPAD
+$SHAPE3D
+Na "connectors/POWER_21.wrl"
+Sc 0.8 0.8 0.8
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE JACK_3.5mm_Stereo_2Print
+$MODULE miniDIN4-2Print
+Po 0 0 0 15 5193BA0F 00000000 ~~
+Li miniDIN4-2Print
+Sc 0
+AR /518B6397
+Op 0 0 0
+T0 0 0.4445 1 1 0 0.15 N V 21 N "P2"
+T1 0.39 1.59 1 1 0 0.15 N V 21 N "Power"
+DS 7 2.27 7 -2.89 0.15 21
+DS 7 2.27 -7 2.27 0.15 21
+DS -7 2.27 -7 -2.89 0.15 21
+DS -6.99 -2.89 7.01 -2.89 0.15 21
+$PAD
+Sh "5" O 1.6 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po 5.07 -1.63
+$EndPAD
+$PAD
+Sh "6" O 1.6 2.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 3 "GND"
+Po -5.07 -1.65
+$EndPAD
+$PAD
+Sh "1" O 1.6 2.5 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 1 "12 V"
+Po 2.65 -0.02
+$EndPAD
+$PAD
+Sh "2" O 1.6 2.5 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 2 "5.0 V"
+Po -2.67 0.02
+$EndPAD
+$PAD
+Sh "4" O 1.6 2.5 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 1 "12 V"
+Po 2.5 -2
+$EndPAD
+$PAD
+Sh "3" O 1.6 2.5 0 0 900
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 2 "5.0 V"
+Po -2.5 -2
+$EndPAD
+$EndMODULE miniDIN4-2Print
+$EndLIBRARY
