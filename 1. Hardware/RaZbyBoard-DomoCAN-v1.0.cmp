@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 18/05/2013 23:18:11
+
+BeginCmp
+TimeStamp = /51856344;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51856335;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F463;
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F472;
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F2B9;
+Reference = IC1;
+ValeurCmp = MCP2515;
+IdModule  = DIP-18__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F059;
+Reference = IC2;
+ValeurCmp = MCP2551;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /518EA5E2;
+Reference = IC3;
+ValeurCmp = DS1307;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5186C567;
+Reference = JP1;
+ValeurCmp = Can Term?;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184D1AD;
+Reference = P1;
+ValeurCmp = Raspberry Pi;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B6397;
+Reference = P2;
+ValeurCmp = Power;
+IdModule  = miniDIN4-2Print;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F2C8;
+Reference = P3;
+ValeurCmp = CAN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5186C37F;
+Reference = P4;
+ValeurCmp = 1 Wire;
+IdModule  = JACK_3.5mm_Stereo_2Print;
+EndCmp
+
+BeginCmp
+TimeStamp = /518EA957;
+Reference = P5;
+ValeurCmp = RTC Bat.;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F6EB;
+Reference = R1;
+ValeurCmp = 6.8K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F6DC;
+Reference = R2;
+ValeurCmp = 6.8K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F6BE;
+Reference = R3;
+ValeurCmp = 6.8K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5185624D;
+Reference = R4;
+ValeurCmp = 18K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F58A;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5186B140;
+Reference = R6;
+ValeurCmp = 120;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5186C776;
+Reference = R7;
+ValeurCmp = 4.7K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5184F454;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = HC-18UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /518EABFD;
+Reference = X2;
+ValeurCmp = 32.768KHz;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+EndListe
