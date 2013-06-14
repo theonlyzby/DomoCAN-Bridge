@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 18/05/2013 23:18:11
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 14/06/2013 19:57:33
 
 BeginCmp
 TimeStamp = /51856344;
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5186C567;
 Reference = JP1;
-ValeurCmp = Can Term?;
+ValeurCmp = Can Term;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
@@ -89,6 +89,13 @@ TimeStamp = /518EA957;
 Reference = P5;
 ValeurCmp = RTC Bat.;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB584F;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp

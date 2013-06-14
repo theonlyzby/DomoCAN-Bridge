@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 19/05/2013 10:26:15
+EESchema Schematic File Version 2  date 14/06/2013 21:14:44
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:RaZbyBoard-DomoCAN-v1.0-cache
+LIBS:RaZbyBoard-DomoCAN-Bridge-v1.0-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 may 2013"
+Date "14 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -457,8 +457,6 @@ Text GLabel 3350 5150 0    60   Input ~ 0
 I2C_SDA
 Text GLabel 3350 5250 0    60   Input ~ 0
 I2C_SCL
-Text GLabel 3350 4950 0    60   Input ~ 0
-3.3 V
 Text Notes 2100 4550 0    60   ~ 0
 Real Time Clock
 Wire Wire Line
@@ -614,7 +612,7 @@ Wire Notes Line
 Wire Bus Line
 	750  2400 3450 2400
 Wire Bus Line
-	3450 2400 3450 5800
+	3450 2400 3450 6150
 Wire Wire Line
 	7900 5000 7900 3400
 Wire Wire Line
@@ -686,13 +684,11 @@ Wire Wire Line
 Wire Wire Line
 	900  5050 1500 5050
 Wire Notes Line
-	600  5900 2900 5900
-Wire Notes Line
-	2900 5900 2900 4450
+	2900 4450 2900 6450
 Wire Notes Line
 	2900 4450 600  4450
 Wire Notes Line
-	600  4450 600  5900
+	600  4450 600  6450
 Wire Notes Line
 	3550 5200 3550 1750
 Wire Notes Line
@@ -703,4 +699,43 @@ Wire Notes Line
 	11100 5200 11100 1750
 NoConn ~ 10300 4000
 NoConn ~ 10300 3900
+Text GLabel 3350 4950 0    60   Input ~ 0
+5.0 V
+$Comp
+L CONN_4 P6
+U 1 1 51BB584F
+P 2450 6100
+F 0 "P6" V 2400 6100 50  0000 C CNN
+F 1 "CONN_4" V 2500 6100 50  0000 C CNN
+F 2 "" H 2450 6100 60  0000 C CNN
+F 3 "" H 2450 6100 60  0000 C CNN
+	1    2450 6100
+	-1   0    0    -1  
+$EndComp
+Entry Wire Line
+	3350 6050 3450 5950
+Wire Wire Line
+	3350 6050 2800 6050
+Text GLabel 3350 6050 0    60   Input ~ 0
+5.0 V
+Entry Wire Line
+	3350 5950 3450 5850
+Wire Wire Line
+	3350 5950 2800 5950
+Text GLabel 3350 5950 0    60   Input ~ 0
+GND
+Entry Wire Line
+	3350 6150 3450 6050
+Entry Wire Line
+	3350 6250 3450 6150
+Text GLabel 3350 6150 0    60   Input ~ 0
+I2C_SDA
+Text GLabel 3350 6250 0    60   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	2800 6150 3350 6150
+Wire Wire Line
+	3350 6250 2800 6250
+Wire Notes Line
+	600  6450 2900 6450
 $EndSCHEMATC
